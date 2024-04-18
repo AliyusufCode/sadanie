@@ -1,0 +1,53 @@
+.uploadItems {
+  display: flex;
+  margin: 30px;
+}
+.content {
+  top: 512px;
+  left: 34px;
+  width: 143px;
+  height: 143px;
+  /* UI Properties */
+  background: transparent
+    linear-gradient(135deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 20px;
+  opacity: 1;
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  &:last-child {
+    margin-left: 30px;
+  }
+}
+.contentInfo {
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  top: 529px;
+  left: 44px;
+  width: 124px;
+  height: 109px;
+
+  opacity: 1;
+  h5 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-left: 11px;
+    padding: 0 10px;
+  }
+  .galery {
+    font-size: 70px;
+    margin-left: 27px;
+    color: white;
+  }
+  .camera {
+    color: white;
+    font-size: 70px;
+    margin-left: 27px;
+  }
+}

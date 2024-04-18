@@ -1,0 +1,74 @@
+.content {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  background: #f0e7ed 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+.contents {
+  top: 294px;
+  left: 62px;
+  width: 251px;
+  height: 225px;
+
+  opacity: 1;
+}
+
+.icon {
+  position: relative;
+  color: red;
+  top: 22px;
+  left: 277px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  opacity: 1;
+  cursor: pointer;
+}
+.email {
+  position: relative;
+  padding-left: 13px;
+  top: 294px;
+  left: 62px;
+  width: 251px;
+  height: 55px;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border: 2px solid #080708;
+  border-radius: 30px;
+  opacity: 1;
+  font-size: 30px;
+  text-decoration: dotted;
+}
+.password {
+  top: 314px;
+  position: relative;
+  left: 62px;
+  font-size: 30px;
+  padding-left: 13px;
+  width: 251px;
+  height: 55px;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border: 2px solid #080708;
+  border-radius: 30px;
+  opacity: 1;
+}
+.button {
+  position: relative;
+  cursor: pointer;
+  top: 354px;
+  left: 103px;
+  width: 169px;
+  height: 55px;
+  border: 0;
+  background: #00cc99 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #08070880;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}

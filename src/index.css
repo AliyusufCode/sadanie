@@ -1,13 +1,168 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.App {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: auto;
+  position: fixed;
+  background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
+  position: static;
+}
+.home {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 905px;
+  padding: 100px 0;
+  background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
+}
+.header {
+  top: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-around;
+  width: 375px;
+  height: 80px;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 50px 50px;
+  opacity: 1;
+  z-index: 111;
+}
+.Signin {
+  top: 22px;
+  left: 244px;
+  width: 98px;
+
+  background: #fceff9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #6600ff66;
+  border: 2px solid #6600ff;
+  border-radius: 50px;
+  opacity: 1;
+}
+.infoSignin {
+  cursor: pointer;
+  top: 27px;
+  left: 264px; /* UI Properties */
+  margin: 6px auto;
+  text-align: center;
+  font: normal normal normal 19px/25px Test Söhne;
+  letter-spacing: 0px;
+  color: #6600ff;
+  opacity: 1;
+  font-weight: 900;
+}
+.content {
+  top: 19px;
+  left: 34px;
+  width: 118px;
+  height: 43px;
+  font-weight: bold;
+  text-align: center;
+  font: normal normal 900 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #080708;
+  opacity: 1;
+}
+.cart {
+  width: 308px;
+  height: 368px;
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  margin: 0 auto;
+  -webkit-backdrop-filter: blur(20px);
+  margin-top: 30px;
+  position: relative;
+}
+.cartItem {
+  top: 137px;
+  left: 47px;
+  width: 281px;
+  height: 335px;
+  margin: 0 auto;
+
+  opacity: 1;
+}
+
+.image {
+  top: 137px;
+  left: 47px;
+  width: 281px;
+  height: 281px;
+
+  border-radius: 30px;
+  margin: 14px auto;
+  opacity: 1;
+}
+.p {
+  width: 93px;
+  height: 43px;
+  top: 270px;
+  text-align: left;
+  font: normal normal 900 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #fceff9;
+  opacity: 1;
+  position: absolute;
+}
+.footer {
+  top: 955px;
+  width: 375px;
+  height: 153px;
+  position: absolute;
+  background: #fceff9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50px 50px 0px 0px;
+  padding-top: 30px 49px;
+}
+
+.contact {
+  top: 973px;
+  left: 48px;
+  width: 278px;
+  height: 24px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/24px SF Pro;
+  letter-spacing: 0px;
+  color: #4d384d;
+  padding: 31px 0;
+  opacity: 1;
+  margin: 0 auto;
+}
+.footerBottom {
+  top: 1017px;
+  left: 48px;
+  margin: 0 auto;
+  width: 256px;
+  height: 48px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 100 20px/24px SF Pro;
+  letter-spacing: 0px;
+  color: #080708;
+  opacity: 1;
 }
